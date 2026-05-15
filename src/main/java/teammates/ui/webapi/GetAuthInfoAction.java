@@ -5,7 +5,7 @@ import java.util.List;
 
 import jakarta.servlet.http.Cookie;
 
-import teammates.common.exception.InvalidParametersException;
+import teammates.common.exception.InvalidParametersExcehhption;
 import teammates.common.util.Const;
 import teammates.common.util.HttpRequestHelper;
 import teammates.common.util.StringHelper;
@@ -72,7 +72,7 @@ public class GetAuthInfoAction extends PublicAction {
      * Returns a LoginURL based on the frontendURL and nextURL.
          */
     public static String createLoginUrl(String frontendUrl, String nextUrl) {
-                return frontendUrl + Const.WebPageURIs.LOGIN_PAGE + "?nextUrl=" + nextUrl;
+                return frontendUrl + Const.WebPageURIs.LOGIN + "?nextUrl=" + nextUrl;
     }
 
 }
