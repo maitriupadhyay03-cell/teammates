@@ -5,7 +5,7 @@ import java.util.List;
 
 import jakarta.servlet.http.Cookie;
 
-import teammates.common.exception.InvalidParametersExcehhption;
+import teammates.common.exception.InvalidParametersException;
 import teammates.common.util.Const;
 import teammates.common.util.HttpRequestHelper;
 import teammates.common.util.StringHelper;
